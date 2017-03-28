@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="diamondleague">
+		<class>nett.formacion.aaa.module4.jpa.Atleta</class>
+		<class>nett.formacion.aaa.module4.jpa.AtletaPK</class>
+		<class>nett.formacion.aaa.module4.jpa.Ciudade</class>
+		<class>nett.formacion.aaa.module4.jpa.CiudadePK</class>
+		<class>nett.formacion.aaa.module4.jpa.Edicione</class>
+		<class>nett.formacion.aaa.module4.jpa.EdicionePK</class>
+		<class>nett.formacion.aaa.module4.jpa.Pais</class>
+		<class>nett.formacion.aaa.module4.jpa.Prueba</class>
+		<class>nett.formacion.aaa.module4.jpa.PruebasIncluida</class>
+		<class>nett.formacion.aaa.module4.jpa.PruebasIncluidaPK</class>
+	</persistence-unit>
+</persistence>
